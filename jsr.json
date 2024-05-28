@@ -3,6 +3,8 @@
 	"version": "0.0.1",
 	"exports": {
 		".": "./src/index.ts",
-		"./r": "./src/r.ts"
+		"./calculations": "./src/calculations.ts",
+		"./array/filter": "./src/array/filter.ts",
+		"./array/sort": "./src/array/sort.ts"
 	}
 }

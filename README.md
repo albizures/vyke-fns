@@ -26,9 +26,9 @@ Sorts an array of objects by a property.
 
 ```ts
 const arr = [
-	{ name: 'John', age: 25 },
-	{ name: 'Jane', age: 22 },
-	{ name: 'Doe', age: 30 }
+  { name: 'John', age: 25 },
+  { name: 'Jane', age: 22 },
+  { name: 'Doe', age: 30 }
 ]
 const sorted = arr.sort(compareBy('age'))
 console.log(sorted)
@@ -42,11 +42,26 @@ console.log(sorted)
 ### mapToUnit
 Re-maps a number from one range to 0-1 and constrains the value.
 
+```ts
+const mapped = mapToUnit(50, 0, 100)
+console.log(mapped) // 0.5
+```
+
 ### map
 Re-maps a number from one range to another.
 
+```ts
+const mapped = map(50, 0, 100, 0, 200)
+console.log(mapped) // 100
+```
+
 ### constrain
 Constrains a value to not exceed a maximum and minimum value.
+
+```ts
+const constrained = constrain(150, 0, 100)
+console.log(constrained) // 100
+```
 
 ## Others vyke projects
 - [Flowmodoro app by vyke](https://github.com/albizures/vyke-flowmodoro)
