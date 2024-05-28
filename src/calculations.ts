@@ -21,7 +21,7 @@ export function mapToUnit(
 	start: number,
 	stop: number,
 	withinBounds = false,
-) {
+): number {
 	return map(source, start, stop, 0, 1, withinBounds)
 }
 
@@ -47,7 +47,7 @@ export function map(
 	start2: number,
 	stop2: number,
 	withinBounds = false,
-) {
+): number {
 	const newval
     = ((source - start1) / (stop1 - start1)) * (stop2 - start2) + start2
 	if (!withinBounds) {
@@ -73,6 +73,6 @@ export function map(
  * console.log(constrained) // 100
  * ```
  */
-export function constrain(value: number, low: number, high: number) {
+export function constrain(value: number, low: number, high: number): number {
 	return Math.max(Math.min(value, high), low)
 }

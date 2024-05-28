@@ -22,7 +22,7 @@
  * // ]
  * ```
  */
-export function compareBy<T, A extends keyof T>(property: A) {
+export function compareBy<T, A extends keyof T>(property: A): (a: T, b: T) => number {
 	return (a: T, b: T) => {
 		if (a[property] < b[property]) {
 			return -1

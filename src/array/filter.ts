@@ -12,7 +12,7 @@
  * console.log(filtered) // [1, 2, 4, 5]
  * ```
  */
-export function outItem<T>(item: T) {
+export function outItem<T>(item: T): (current: T) => boolean {
 	return (current: T) => {
 		return item !== current
 	}
