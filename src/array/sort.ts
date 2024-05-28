@@ -9,9 +9,9 @@
  * @example
  * ```ts
  * const arr = [
- *   { name: 'John', age: 25 },
- *   { name: 'Jane', age: 22 },
- *   { name: 'Doe', age: 30 }
+ * 	{ name: 'John', age: 25 },
+ * 	{ name: 'Jane', age: 22 },
+ * 	{ name: 'Doe', age: 30 }
  * ]
  * const sorted = arr.sort(compareBy('age'))
  * console.log(sorted)

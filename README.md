@@ -4,7 +4,7 @@
 	</h1>
 </div>
 
-Several functions with different scope with small in nature
+Several functions with different scopes and small in nature
 
 ## Installation
 ```sh
@@ -26,9 +26,9 @@ Sorts an array of objects by a property.
 
 ```ts
 const arr = [
-  { name: 'John', age: 25 },
-  { name: 'Jane', age: 22 },
-  { name: 'Doe', age: 30 }
+	{ name: 'John', age: 25 },
+	{ name: 'Jane', age: 22 },
+	{ name: 'Doe', age: 30 }
 ]
 const sorted = arr.sort(compareBy('age'))
 console.log(sorted)
