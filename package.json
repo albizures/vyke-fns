@@ -22,6 +22,14 @@
 		"./array/sort": {
 			"import": "./dist/array/sort.mjs",
 			"require": "./dist/array/sort.cjs"
+		},
+		"./noop": {
+			"import": "./dist/noop.mjs",
+			"require": "./dist/noop.cjs"
+		},
+		"./easings": {
+			"import": "./dist/easings.mjs",
+			"require": "./dist/easings.cjs"
 		}
 	},
 	"main": "./dist/index.cjs",

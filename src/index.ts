@@ -1,3 +1,5 @@
 export * from './array/filter'
 export * from './array/sort'
 export * from './calculations'
+export * from './noop'
+export * from './easings'
