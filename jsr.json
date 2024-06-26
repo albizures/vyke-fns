@@ -5,6 +5,8 @@
 		".": "./src/index.ts",
 		"./calculations": "./src/calculations.ts",
 		"./array/filter": "./src/array/filter.ts",
-		"./array/sort": "./src/array/sort.ts"
+		"./array/sort": "./src/array/sort.ts",
+		"./noop": "./src/noop.ts",
+		"./easings": "./src/easings.ts"
 	}
 }
